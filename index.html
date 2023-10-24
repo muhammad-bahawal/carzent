@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<!-- first container -->
+	<div class="container cont-width mt-2 hide-all">
+		<div class="row">
+			<div class="col-xl-8 col-lg-8 col-12 bah-clr bah-width ">
+				<div class="row p-3">
+					<div class="col-7 p-0">
+						<h1 class="font-size1">Fiat Qubo Family</h1>
+					</div>
+					<div class="col-5 text-end">
+						<img class="me-3" src="images/icon23.png" width="30px">
+						<!-- <img class="img-border ps-3" src="images/cross.png" width="40px"> -->
+						<span class="cross ps-3 fw-bold">&#935;</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-12">
+				<div class="row border-bottom border-top">
+					<div class="col bah-clr ">
+			        	<div class="row text-center p-3" id="pad-adjust">
+			        		<div class="col-5 fw-bold" id="inform-show">
+			        			<p class="mt-1">Information</p>
+			        		</div>
+			        		<div class="col-2">
+			        			<img src="images/arrow.png" width="30px" class="mt-1">
+			        		</div>
+			        		<div class="col-5 fw-bold" id="booking-show">
+			        			<p class="mt-1">Booking</p>
+			        		</div>
+			        	</div>
+			        </div>
+				</div>
+			</div>
+			<div class="col bah-clr pb-2" id="car-img-hide1">
+				<div class="row justify-content-center">
+					<div class="col-12 car-img-adjust bah-clr">
+						<img src="images/car1.webp" class="w-100">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- information and booking form -->
+	<div class="container mt-2 cont-width hide-all">
+		<div class="row"> 
+			<!-- information form -->
+			<div class="col-xl-8 col-lg-8 col-12 bah-width mt-2" id="inform-form">
+				<div class="row">
+					<div class="col bah-clr pb-4">
+						<div class="row ps-3 pe-3 mt-4 ">
+				        	<div class="col-8">
+				        		<h1 class="font-size2">Specifications</h1>
+				        	</div>
+				        	<div class="col-4 text-end">
+				        		<small class="see-all">See All</small>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2">
+				        	<div class="col-6 border-bottom">
+				        		<p>Gearbox</p>
+				        	</div>
+				        	<div class="col-6 border-bottom text-end font-size4">
+				        		<p>MT</p>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2">
+				        	<div class="col-6 border-bottom">
+				        		<p>Engine</p>
+				        	</div>
+				        	<div class="col-6 border-bottom text-end font-size4">
+				        		<p>1.4 L</p>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2">
+				        	<div class="col-6 border-bottom">
+				        		<p>Year Of Manufacture</p>
+				        	</div>
+				        	<div class="col-6 border-bottom text-end font-size4">
+				        		<p>2020 — 2022</p>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2">
+				        	<div class="col-6 border-bottom">
+				        		<p>Mileage Limit</p>
+				        	</div>
+				        	<div class="col-6 border-bottom text-end font-size4">
+				        		<p>No</p>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2">
+				        	<div class="col-4 border-bottom">
+				        		<p>Audio</p>
+				        	</div>
+				        	<div class="col-8 border-bottom text-end font-size4">
+				        		<p>Bluetooth, Radio, MP3, USB</p>
+				        	</div>
+				        </div>
+				        <!-- click see all and show -->
+				        <div id="show-all">
+				        	<div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-8 border-bottom">
+				        	    	<p>Number Of Seats</p>
+				        	    </div>
+				        	    <div class="col-4 border-bottom text-end font-size4">
+				        	    	<p>1</p>
+				        	    </div>
+				            </div>	
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>Driver</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>FWD</p>
+				        	    </div>
+				            </div>			        	
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>Power</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>77Hp</p>
+				        	    </div>
+				            </div>
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>Airbags</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>4</p>
+				        	    </div>
+				            </div>
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>Air Conditioning</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>Yes</p>
+				        	    </div>
+				            </div>
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>Roof</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>Standard</p>
+				        	    </div>
+				            </div>
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>Tank</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>45 L</p>
+				        	    </div>
+				            </div>
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>Fuel</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>Gasoline</p>
+				        	    </div>
+				            </div>
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>Wheel Side</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>Left</p>
+				        	    </div>
+				            </div>
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>Consumption</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>6.2 L / 100 Km</p>
+				        	    </div>
+				            </div>
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>Interior</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>Fabric</p>
+				        	    </div>
+				            </div>
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6 border-bottom">
+				        	    	<p>ABS</p>
+				        	    </div>
+				        	    <div class="col-6 border-bottom text-end font-size4">
+				        	    	<p>Yes</p>
+				        	    </div>
+				            </div>
+				            <div class="row ps-3 pe-3 mt-2">
+				        	    <div class="col-6">
+				        	    	<p>EBD</p>
+				        	    </div>
+				        	    <div class="col-6 text-end font-size4">
+				        	    	<p>Yes</p>
+				        	    </div>
+				            </div>
+				        </div >
+					</div>
+				</div>
+
+				<!-- Insurance Coverage -->
+				<div class="row mt-2">
+					<div class="col bah-clr pb-4">
+						<div class="row ps-3 pe-3 mt-4 ">
+				        	<div class="col">
+				        		<h1 class="font-size2">Insurance Coverage</h1>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-4">
+				        	<div class="col-10 border-bottom d-flex">
+				        		<input type="checkbox" class="form-check-input" name="" id="Insurance1" checked disabled>
+				        		<label for="Insurance1" class="ms-1">Fully Comprehensive (Without Excess)</label>
+				        	</div>
+				        	<div class="col-2 text-end text-success font-size4 border-bottom">
+				        	    <p class="mb-2">Free</p>
+				            </div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2">
+				        	<div class="col-8 d-flex">
+				        		<input type="checkbox" class="form-check-input" name="" id="Insurance2">
+				        		<label for="Insurance2" class="ms-1">Young Driver (23-25 Years Old)</label>
+				        	</div>
+				        	<div class="col-4 text-end font-size4">
+				        		<p>10.00 / day</p>
+				        	</div>
+				        </div>
+					</div>
+				</div>
+
+				<!-- Additional Services -->
+				<div class="row mt-2">
+					<div class="col bah-clr pb-4">
+						<div class="row ps-3 pe-3 mt-2">
+				            <div class="col">
+				            	<h1 class="font-size2">Additional Services</h1>
+				            </div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-4 ">
+				        	<div class="col-8 border-bottom">
+				        		<input type="checkbox" class="form-check-input" name="" id="additional1">
+				        		<label for="additional1">Airport Change</label>
+				        	</div>
+				        	<div class="col-4 text-end font-size4 border-bottom">
+				        		<p class="mb-2">100.00</p>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2 ">
+				        	<div class="col-7 border-bottom">
+				        		<input type="checkbox" class="form-check-input" name="" id="additional2">
+				        		<label for="additional2">GPS Navigator</label>
+				        	</div>
+				        	<div class="col-5 text-end font-size4 border-bottom">
+				        		<p class="mb-2">5.00 / day</p>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2 ">
+				        	<div class="col-8 border-bottom">
+				        		<input type="checkbox" class="form-check-input" name="" id="additional3">
+				        		<label for="additional3">Child Seat</label>
+				        	</div>
+				        	<div class="col-4 text-end text-success font-size4 border-bottom">
+				        		<p class="mb-2">Free</p>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2 ">
+				        	<div class="col-8 border-bottom">
+				        		<input type="checkbox" class="form-check-input" name="" id="additional4">
+				        		<label for="additional4">Child Booster Seat</label>
+				        	</div>
+				        	<div class="col-4 text-end text-success font-size4 border-bottom">
+				        		<p class="mb-2">Free</p>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2 ">
+				        	<div class="col-8 border-bottom">
+				        		<input type="checkbox" class="form-check-input" name="" id="additional5">
+				        		<label for="additional5">Second Driver</label>
+				        	</div>
+				        	<div class="col-4 text-end text-success font-size4 border-bottom">
+				        		<p>Free</p>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 pe-3 mt-2">
+				        	<div class="col-8">
+				        		<input type="checkbox" class="form-check-input" name="" id="additional6" checked disabled>
+				        		<label for="additional6">Free Cancellation</label>
+				        	</div>
+				        	<div class="col-4 text-end text-success font-size4">
+				        		<p>yes</p>
+				        	</div>
+				        </div>
+					</div>
+				</div>
+			</div>
+
+			<!-- booking form -->
+			<div class="col-xl-8 col-lg-8 col-12 bah-width mt-2" id="booking-form">
+				<div class="row">
+					<div class="col bah-clr pb-4">
+						<div class="row ps-3 mt-4">
+				        	<div class="col">
+				        		<h1 class="font-size2">Pick-Up Location</h1>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 mt-2">
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/location.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <select class="form-select text-hover">
+				              	        <option>South Airport, TFS</option>
+				              	        <option>Las Americas</option>
+				              	        <option>Las Americas</option>
+				                    </select>
+                                </div>
+					        </div>
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/car.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <input  type="text" class="form-control" name="" placeholder="address">
+                                </div>
+					        </div>
+				        </div>
+
+				        <div class="row ps-3">
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/date.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" name="" placeholder="October 22, 2023">
+                                </div>
+					        </div>
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/time.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <select class="form-select text-hover">
+				              	        <option>09:00</option>
+				              	        <option>01:00</option>
+				              	        <option>02:00</option>
+				                    </select>
+                                </div>
+					        </div>
+				        </div>
+				        <div class="row mt-2 ps-3">
+				        	<div class="col">
+				        		<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/plane.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" name="" placeholder="Flight Number (Optional)">
+                                </div>
+				        	</div>
+				        </div>
+					</div>
+				</div>
+				<!-- drop-off -->
+				<div class="row mt-2">
+					<div class="col bah-clr pb-4">
+						<div class="row ps-3 mt-4">
+				        	<div class="col">
+				        		<h1 class="font-size2">Drop-Off Location</h1>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 mt-2">
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/location.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <select class="form-select text-hover">
+				              	        <option>South Airport, TFS</option>
+				              	        <option>Las Americas</option>
+				              	        <option>Las Americas</option>
+				                    </select>
+                                </div>
+					        </div>
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/car.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" name="" placeholder="address">
+                                </div>
+					        </div>
+				        </div>
+
+				        <div class="row ps-3">
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/date.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" name="" placeholder="October 22, 2023">
+                                </div>
+					        </div>
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/time.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <select class="form-select text-hover">
+				              	        <option>09:00</option>
+				              	        <option>01:00</option>
+				              	        <option>02:00</option>
+				                    </select>
+                                </div>
+					        </div>
+				        </div>
+					</div>
+				</div>
+				<!-- personal information -->
+				<div class="row mt-2">
+					<div class="col bah-clr pb-4">
+						<div class="row ps-3 mt-4">
+				        	<div class="col">
+				        		<h1 class="font-size2">Personal Information</h1>
+				        	</div>
+				        </div>
+				        <div class="row ps-3 mt-2">
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/person.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <input class="form-control" type="text" name="" placeholder="First Nmae*">
+                                </div>
+					        </div>
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/person.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <input class="form-control" type="text" name="" placeholder="Last Name*">
+                                </div>
+					        </div>
+				        </div>
+				        <div class="row ps-3">
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/date.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <input class="form-control" type="text" name="" placeholder="Date Birth*">
+                                </div>
+					        </div>
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/cash.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <select class="form-select text-hover">
+				              	        <option>cash</option>
+				              	        <option>Credit Card</option>
+				              	        <option>Visa</option>
+				                    </select>
+                                </div>
+					        </div>
+				        </div>
+				        <div class="row ps-3">
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/phone.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <input class="form-control" type="tel" name="" placeholder="Phone*">
+                                </div>
+					        </div>
+					        <div class="col-xl-6 col-lg-6 col-12 mt-2">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border">
+                                        	<img src="images/email.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <input type="email" class="form-control" name="" placeholder="Email">
+                                </div>
+					        </div>
+				        </div>
+				        <div class="row ps-3 mt-2">
+					        <div class="col">
+					        	<div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text bah-border" style="height: 134px;">
+                                        	<img src="images/date.png" width="25px">
+                                        </div>
+                                    </div>
+                                    <textarea class="form-control" rows="5">Comments</textarea>
+                                </div>
+					        </div>
+				        </div>
+
+				        <div class="row ps-3 mt-3">
+				        	<div class="col-12">
+				        		<input class="form-check-input" type="checkbox" value="" id="accept">
+                                <label class="form-check-label" for="accept">
+                                I accept the </label>
+                                <a href="#" class="link-styl">Terms of Use</a>
+				        	</div>
+				        	<div class="col-12">
+				        		<input class="form-check-input" type="checkbox" value="" id="read">
+                                <label class="form-check-label" for="read">
+                                I have read the </label>
+                                <a href="#" class="link-styl">Privacy Policy</a>
+				        	</div>
+				        </div>
+					</div>
+				</div>
+			</div>
+
+			<!-- order summary -->
+			<div class="col-xl-4 col-lg-4 col-12 mt-2">								
+				<div class="row">
+					<div class="col bah-clr pb-5">
+						<img src="images/car1.webp" class="w-100" id="car-img-hide2">
+						<div class="row mt-3">
+				        	<div class="col">
+				        		<p class="font-size2">Order Summary:</p>
+				        	</div>
+				        </div>
+				        <div class="row p-2">
+				        	<div class="col-8"><p class="mb-0">Rent for 7 days</p></div>
+				        	<div class="col-4 text-end fw-bold"><p class="mb-0">€275.69</p></div>
+				        	<div class="col border-bottom pb-2">
+				        		<small>South Airport,...(Oct. 23) – South Airport,...(Oct. 30)</small>
+				        	</div>
+				        </div>
+				        <div class="row p-2 ">
+				        	<div class="col-8 border-bottom">
+				        		<p>Deposit<small class="ms-2 bah-hover">Methods</small></p>
+				        	</div>
+				        	<div class="col-4 border-bottom text-end fw-bold ">
+				        		<p>€300.00 </p>
+				        	</div>
+				        </div>
+				        <div class="row p-2 ">
+				        	<div class="col-8 border-bottom">
+				        		<p>Fully Comprehensive Insurance</p>
+				        	</div>
+				        	<div class="col-4 border-bottom text-end fw-bold ">
+				        		<p>0.00 </p>
+				        	</div>
+				        </div>
+				        <div class="row p-2 ">
+				        	<div class="col-8 border-bottom">
+				        		<p>Second Driver</p>
+				        	</div>
+				        	<div class="col-4 border-bottom text-end fw-bold ">
+				        		<p>0.00 </p>
+				        	</div>
+				        </div>
+				        <div class="row p-2 ">
+				        	<div class="col-8 border-bottom">
+				        		<p>Free Cancellation</p>
+				        	</div>
+				        	<div class="col-4 border-bottom text-end fw-bold ">
+				        		<p>0.00 </p>
+				        	</div>
+				        </div>
+				        <div class="row p-2 ">
+				        	<div class="col-8 fw-bold">
+				        		<p class="mb-0">Total</p>
+				        	</div>
+				        	<div class="col-4 text-end fw-bold ">
+				        		<p class="mb-0">0.00 </p>
+				        	</div>
+				        </div>
+				        <div class="row p-2 ">
+				        	<div class="col-8 ">
+				        		<span class="font-size3">To Pay Now</span>
+				        		<small class="ms-2 bah-hover">Why</small>
+				        	</div>
+				        	<div class="col-4 text-end fw-bold ">
+				        		<p class="font-size3">0.00 </p>
+				        	</div>
+				        </div>
+				        <div class="row" >
+				        	<div class="col">
+				        		<button class="subm-butn h-100 w-100 fw-bold" id="subm-butn">Submit a Request</button>
+				        	</div>
+				        </div>
+				        <div class="row">
+				        	<div class="col">
+				        		<button class="subm-butn h-100 w-100 fw-bold" id="book-butn">Book a Car</button>
+				        	</div>
+				        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#booking-form').hide();
+			$('#subm-butn').hide();
+			$('#booking-show').click(function(){
+				$('#booking-form').show();
+				$('#inform-form').hide();				
+				$('#inform-show').css({
+					"color":"lightgrey",
+				});
+				$('#inform-show').mouseenter(function(){
+					$(this).css({
+						"color":"#D6111E",
+					});
+				});
+				$('#inform-show').mouseleave(function(){
+			    	$(this).css({
+			    		"color":"lightgrey",
+			    	});
+			    });
+				$(this).css({
+					"color":"black",
+				});
+				$('#subm-butn').show();
+				$('#book-butn').hide();
+			});
+			$('#inform-show').click(function(){
+				$('#booking-form').hide();
+				$('#inform-form').show();
+				$('booking-show').css({
+					"color":"lightgrey",
+				});
+				$('#booking-show').css({
+					"color":"lightgrey",
+				});
+				$('#booking-show').mouseenter(function(){
+					$(this).css({
+						"color":"#D6111E",
+					});
+				});
+				$('#booking-show').mouseleave(function(){
+			    	$(this).css({
+			    		"color":"lightgrey",
+			    	});
+			    });
+				$(this).css({
+					"color":"black",
+				});
+				$('#book-butn').show();
+				$('#subm-butn').hide();
+			});
+
+			$('#show-all').hide();
+			$('.see-all').click(function(){
+				$('#show-all').toggle();
+			});
+
+			$('.cross').click(function(){
+				$('.hide-all').hide();
+			});
+		});
+	</script>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
